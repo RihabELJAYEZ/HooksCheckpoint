@@ -1,11 +1,23 @@
 .App {
   text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+  
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.CardDeck{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
