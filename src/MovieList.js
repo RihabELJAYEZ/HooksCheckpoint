@@ -4,7 +4,7 @@ import {CardDeck} from 'react-bootstrap';
 const MovieList =({cards})=>{
     return(
         <div>
-        <CardDeck className="CardDeck">
+        <CardDeck>
         
             {cards.map(el=><MovieCard cards={el}></MovieCard>)}
         </CardDeck>
